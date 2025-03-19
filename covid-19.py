@@ -13,5 +13,5 @@ def update():
         toast = ToastNotifier()
         toast.show_toast('Covid-19 Updates', text, duration=10)
         time.sleep(60 * 60)
-        
+
 update()
